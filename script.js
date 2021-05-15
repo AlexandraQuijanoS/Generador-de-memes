@@ -88,11 +88,11 @@ checkTopText.addEventListener("change", (e) => {
 })
 
 checkBottomText.addEventListener("change", (e) => {
+    console.log("hoal");
     if(e.target.checked){
         bottomImage.style.display = "none"
     }else{
         bottomImage.style.display = "flex"
     }
 })
-
 
